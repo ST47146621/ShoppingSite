@@ -1,0 +1,77 @@
+/*----------------------------中間 修改會員資料-----------------------------*/
+.memberdata{
+	background-color: #999999;
+	color:white;
+	font-size: 20px;
+	font-weight:bold;
+	text-align:left;
+	padding-left:5px;
+	margin-top:20px;
+}
+.memberdata1{
+	background-color: white;
+	height:45px;
+	padding: 0px;
+}
+.memberdata-column{
+	background-color: #cccfd0;
+	text-align:center;
+	font-size: 14px;
+	height:45px;
+	padding: 0px;
+}
+
+/*---------------------------- 會員資料 螢幕 736-----------------------------*/
+@media(max-width: 480px) {
+	.memberdata-column{
+	font-size: 12px;
+    }
+}
+/*---------------------------- 會員資料 螢幕 736-----------------------------*/
+
+.input-wrong{
+	font-size: 12px;
+	padding-right: 2px;
+	color: red;
+	float: right;
+	padding-top: 10px;
+}
+
+
+.memberdata-column.col-lg-3.col-xs-3 {
+    padding-top: 10px;
+}
+.buttonsize{
+	float: right;
+	margin-right: 20px; 
+	margin-top: 80px;
+}
+
+
+/*---------------------------- 確認修改 螢幕 736-----------------------------*/
+@media(max-width: 480px) {
+	.buttonsize{
+		margin-right: 20px; 
+		margin-top: 50px;
+    }
+}
+.buttonsize button.btn.btn-primary.pull-right {
+    width: 150px;
+    font-size: 16px;
+}
+/*---------------------------- 確認修改 螢幕 736-----------------------------*/
+
+.memberdata-control{
+	height:30px;
+}
+input.form-control.memberdata-control {
+    margin-top: 7px;
+    width: 100%;
+}
+
+/*----------垂直置中對齊---------*/
+.transform {
+      position: relative;
+      top:50%;
+      transform:translateY(-50%);
+}

@@ -1,0 +1,196 @@
+/*----------------------------商品首頁 內容 樣式-----------------------------*/
+@media screen and (min-width: 1280px)  {
+.content{
+    width: 1100px;
+}
+}
+@media screen and (min-width: 1024px)  {
+.content{
+    width: 1100px;
+}
+}
+/*-----------------------------左邊選單列----------------------------*/
+.sidebar {
+    float: left;
+    margin: 20px;
+}
+.sidebar_left {
+	width: 280px;
+	float: left;
+	height: 100%;
+	overflow:hidden;
+	background-color:#d5c8b5;	
+}
+
+
+@media screen and (max-width: 990px) {
+
+    .sidebar_left {
+        width: 200px;
+    }   
+}/*--end 980~ --*/
+
+@media screen and (max-width: 640px) {
+    .sidebar {
+        width: 100%;
+        margin: 0px;
+    }   
+
+    .sidebar_left {
+        width: 100%;
+    }  
+}/*--end 640 ~ --*/
+
+/*-----------------------------左邊選單列 套鞋靴----------------------------*/
+.list-group {    
+ -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.list-group-item {
+	font-size: 12pt;
+	background-color: rgba(255, 255, 255, 0);
+	border:0px;
+}
+.list-group-item-default{
+	font-size: 14pt;
+	font-weight:bold;
+	background-color:#d5c8b5;
+	border: 0px;
+}
+
+/*----------------------------中間內容-----------------------------*/
+
+
+.content-right{
+	float: right;
+	width: 70%;
+	padding-right: 30px;
+	padding-left: 30px;
+	margin-top: 10px;
+}
+
+@media screen and (max-width: 1024px) {
+
+    .content-right {
+        width: 65%;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+} /*--end 1024 ~ --*/
+@media screen and (max-width: 980px){
+
+    .content-right {
+        width: 65%;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+} /*--end 980 ~ --*/
+@media screen and (max-width: 736px){
+    .content-right {
+    width: 60%;
+    padding-right: 10px;
+    padding-left: 5px;
+    }
+}/*--end 736 ~ --*/
+
+@media screen and (max-width: 640px){
+    .content-right{
+        width: 100%;
+    }    
+}/*--end 640 ~ --*/
+
+
+
+/*----------------------------商品-----------------------------*/
+
+
+@media screen and (max-width: 480px){
+	.product_box {
+	    margin: 0px 42px;
+	}
+	ul.P_boxs>ul {
+	    margin-left: -40px;
+	}
+}/*--end 480 ~ --*/
+
+
+
+ul.P_boxs ul {
+    list-style: none;
+    margin-left: -1.5em;
+    line-height: 21pt;
+}
+.product_box{
+	height: 250px;
+    width: 150px;
+    background-color: #FFF;
+    padding: 5px 0em;
+    margin: 1em 0px 0px 3%;
+    float: left;
+    border-radius: 0.5em;
+    border: 1px solid;
+    border-color: rgba(0, 0, 0, 0.15);
+}
+.product_box .product_pic {
+	height:140px;
+	width: 140px;
+
+	background-color: #ccc;
+	margin:auto;
+}
+.P_infor_min{
+	width: 130px;
+	margin:auto;
+	margin-top:0.2em;
+	font-size: 12pt;
+	line-height: 23pt;
+}
+
+.PutshoppingCart_btn {
+    width: 90%;
+    font-size: 12pt;
+    padding: 0.3em;
+    border: none;
+    border-radius: 0.5em;
+    color: #FFF;
+    background-color: #4973aa;
+}
+.PutshoppingCart_btn i.fa.fa-shopping-cart {
+    margin-right: 10px;
+    font-size: 16pt;
+}
+
+.PutshoppingCart {
+    text-align: center;
+}
+
+
+@media screen and (max-width: 360px){
+	.product_box{
+		width: 135px;
+	}
+	.product_box .product_pic {
+		height:130px;
+		width: 130px;
+		}
+	ul.P_boxs ul {
+		font-size: 11pt;
+	    line-height: 24pt;
+	}
+	.PutshoppingCart_btn{
+		font-size: 11pt;
+	}
+	.PutshoppingCart_btn i.fa.fa-shopping-cart {
+	    font-size: 12pt;
+	}
+	.P_infor_min {
+    padding-left: 10px;
+    line-height: 28pt;
+	}
+
+}/*--end 360 ~ --*/
+@media screen and (max-width: 335px){
+	.product_box{
+		margin: 1em 15px 0px -1em;
+	}
+}/*--end 335 ~ --*/

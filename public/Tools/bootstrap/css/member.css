@@ -1,0 +1,50 @@
+
+.panel1 .panel-heading{
+	background-color: #4A73AB;
+	color:white;
+	font-size: 22px;
+	font-weight:bold;
+	text-align:center;
+}
+.input-group .form-control{
+	font-size: 18px;
+	height:35px;
+	font-weight:bold;
+
+}
+.input-group{
+	margin-bottom: 25px;
+}
+.input-group-addon{
+	font-size: 18px;
+	/*text-align:justify;*/
+	width: 200px;
+}
+.login-btn{
+	color: #0c1b38;
+	font-weight:bold;
+	background-color: #B1CADA;
+	margin-bottom: 20px;
+}
+.panel-body{
+	margin-top:30px;
+}
+.panel{
+	background-color: white;
+	height:600px;
+	padding: 0px;
+	border-left: 12px solid #eceade;
+	
+
+}
+
+
+/*----------------------------輸入標題-----------------------------*/
+span.input-group-addon {
+    width: 150px;
+}
+/*----------------------------輸入標題-----------------------------*/
+
+.modal-dialog {
+    width: 90%;
+}

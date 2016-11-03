@@ -1,0 +1,254 @@
+@charset "utf-8";
+
+body,td,th {
+	font-family: "Adobe 繁黑體 Std B", "微軟正黑體", "新細明體", "Arial Unicode MS";
+	font-size: 12px;
+	color: #000;
+	background-color: #eceade;
+}
+h1 {
+	font-size: 30px;
+}
+h2 {
+	font-size: 24px;
+}
+h3 {
+	font-size: 20px;
+	
+}
+h4 {
+	font-size: 18px;
+}
+h5 {
+	font-size: 16px;
+}
+h6 {
+	font-size: 14px;
+}
+.all {
+	width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+	position: absolute;
+	top: 10.3%;
+	left: 23%;
+
+
+}
+
+.header{
+	background:#FFF;
+		text-align: center;
+}
+.top {
+	height: 100px;
+	width: 100%;
+}
+.top_logo {
+	height: 100px;
+	width: 280px;
+	float: left;
+}
+.top_logo a #Insert_logo {
+	float: right;
+	height: 100px;
+	width: 280px;
+	margin-left: 30px;
+}
+/*-----------------------------上方選單列----------------------------*/
+.top_btns {
+	float: right;
+	margin-top: 50px;
+	height: 50px;
+	line-height: 18px;　
+}
+.T_btn {
+	height: 50px;
+	width: 150px;
+	float: left;
+	font-size: 20px;
+	list-style-type: none;
+}
+.T_btn a {
+	text-align: center;
+	color: #1c3c7e;
+	text-decoration: none;
+	font-weight:bold;
+}
+.T_btn:hover {
+	box-shadow: inset 0px -10px 3px #0FF;
+}
+
+.T_btn a.active {
+    background-color: #1c3c7e;
+    color: white;
+}
+
+
+
+
+/*-----------------------------左邊選單列----------------------------*/
+
+.sidebar_left {
+
+	width: 280px;
+	float: left;
+	height: 100%;
+	overflow:hidden;
+	background-color:#d5c8b5;	
+}
+/*-----------------------------左邊選單列 套鞋靴----------------------------*/
+.list-group-item {
+	font-size: 12pt;
+	background-color: rgba(255, 255, 255, 0);
+	border:0px;
+}
+.list-group-item-default{
+	font-size: 14pt;
+	font-weight:bold;
+	background-color:#d5c8b5;
+	border: 0px;
+}
+
+/*-----------------------------左邊選單列 標籤----------------------------
+.sidebar_left .sidebar_nav li {
+	height: 30px;
+	width: 100%;
+	list-style-type: none;
+	padding-top: 0.5em;
+	background-color: #d5c8b5;
+}
+.sidebar_left .sidebar_nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;    
+}
+
+
+.sidebar_left .sidebar_nav li a {
+	font-size: 16px;
+	color: #000;
+	text-decoration: none;
+	font-weight:bold;
+    display: block;
+    color: #000;
+    padding: 8px 0 8px 16px;
+    text-decoration: none;
+	
+}
+.sidebar_left .sidebar_nav li a:hover:not(.active) {
+    background-color: #edebdf;
+	color: #000;
+}
+.sidebar_nav-s{
+	height: 30px;
+	width: 100%;
+	list-style-type: none;
+	padding-top: 0.5em;
+	background-color: #edebdf;
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+      
+ }*/
+
+/*@media screen and (max-width: 480px){
+    ul.nav li a {
+        text-align: center;
+        float: none;
+    }
+*/
+
+
+
+
+/*----------------------------中間內容-----------------------------*/
+
+.content {
+	float: right;
+	width: 700px;
+	padding-right: 30px;
+	padding-left: 30px;
+
+}
+.show_pic {
+	height: 336px;
+	width: 600px;
+	float: right;
+	background-color: #FFF;
+	margin-top: 12px;
+	margin-bottom: 12px;
+}
+.show_product_pic {
+	clear: both;
+}
+.product_pic {
+	height: 108px;
+	width: 192px;
+	float: right;
+	margin-right: 8px;
+	background-color: #FFF;
+	margin-top: 12px;
+	margin-bottom: 12px;
+}
+/*----------------------------搜尋引擎-----------------------------*/
+.search{
+	height: 40px;	
+	float: right;
+	clear: left;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+.search_btn{
+	height: 40px;
+	width:  40px;
+	float: right;
+	color: #036
+}
+input[type=text] {
+	width: 250px;
+	box-sizing: border-box;
+	border: 2px solid #ccc;
+	border-radius: 4px;
+	font-size: 16px;
+	background-color: white;
+	background-image: url('searchicon.png');
+	background-position: 220px 10px;
+	background-repeat: no-repeat;
+	padding: 12px 20px 12px 10px;
+	-webkit-transition: width 0.4s ease-in-out;
+	transition: width 0.4s ease-in-out;
+}
+input[type=text]:focus {
+   /* box-shadow: 0px 0px 3px 3px #0FF;;*/
+}
+input[type=submit] {
+	border-radius: 10px;
+    border: none;
+    color: white;
+    padding: 14px 14px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+	background-color:#4973aa
+}
+
+/*----------------------------下方-----------------------------*/
+.footer {
+	background-color: #4872a9;
+	height: 100px;
+	clear: both;
+	text-align: center;
+	margin-top: 50px;
+	padding: 3em;
+
+}
+.address {
+	margin: auto;
+	color: #FFF;
+}

@@ -1,0 +1,199 @@
+/*----------------------------中間 進度流程-----------------------------*/
+.block{
+	margin-left: auto;
+	margin-right: auto;
+	width: 440px;
+}
+/*---------進度 螢幕 736---------*/
+@media(max-width: 736px) {
+	.block{
+		width: 100%;
+	}
+}/*--------- 進度 螢幕 736---------*/
+
+
+.block1{
+	background-color: #666666;
+	width: 200px;
+	height: 40px;
+	color:white;
+	font-size: 20px;
+	text-align:center;
+	padding-top: 7px;
+	float: left;
+}
+/*---------進度 螢幕 736---------*/
+@media(max-width: 736px) {
+    .block1{
+	width: 100%;
+	font-size: 18px;
+	padding-top: 8px;
+    }
+}/*--------- 進度 螢幕 736---------*/
+
+
+.block2{
+	background-color: #ffffff;
+	width: 200px;
+	height: 40px;
+	color:black;
+	text-align:center;
+	padding-top: 7px;
+	font-size: 20px;
+	float: left;
+}
+/*--------- 進度 螢幕 736---------*/
+@media(max-width: 736px) {
+	.block2{
+	    width: 100%;
+		padding-top: 8px;
+		font-size: 18px;
+	}
+}/*--------- 進度 螢幕 736---------*/
+@media(max-width: 736px) {
+	.arrow{
+		padding-left: 50%;
+    }
+}
+
+i.material-icons {
+    font-size: 40px;
+}
+/*--------- 進度 螢幕 736---------*/
+@media(max-width: 736px) {
+	i.material-icons {
+	    font-size: 30px;
+	    padding-top: 6px;
+	}
+}/*--------- 進度 螢幕 736---------*/
+
+.material-icons{
+	float: left;
+}
+/*--------- 進度 螢幕 736---------*/
+@media(max-width: 736px) {
+	.material-icons{
+		transform: rotate(90deg);
+	}
+}/*--------- 進度 螢幕 736---------*/
+/*----------------------------中間-----------------------------*/
+.text-control{
+	padding-top: 10px;
+	height: 40px;
+	font-size: 16px;
+	clear: both;
+}
+.text-color{
+	font-size: 18px;
+	color:red;
+}
+
+.title-comtrol{
+	padding-top: 40px;
+	color:#0c1b38;
+	font-size: 22px;
+}
+.underline{
+	border-bottom-style:solid;
+	border-width:1px;
+	border-bottom-color: #8b8a8a;
+}
+.form1{
+	margin-top: 5px;
+	background-color: #999999;
+	color:white;
+	font-size: 18px;
+	text-align:center;
+}
+.form2{
+	background-color: white;
+	font-size: 14px;
+	padding-top: 5px;
+	text-align:center;
+}
+/*--------- 訂單明細確認 螢幕 736---------*/
+@media(max-width: 736px) {
+	.form2{
+		padding-top: 10px;
+		
+	}
+}/*-------- 訂單明細確認 螢幕 736---------*/
+
+.form3{
+	background-color: #e2d7d7;
+	font-size: 14px;
+	padding-top: 5px;
+	text-align:center;
+}
+/*--------- 訂單明細確認 螢幕 736---------*/
+@media(max-width: 736px) {
+	.form3{
+		padding-top: 10px;
+	}
+}/*-------- 訂單明細確認 螢幕 736---------*/
+.total{
+	color:red;
+}
+.notice-title{
+	margin-top: 10px;
+	color:#0c1b38;
+	font-size: 22px;
+}
+.notice{
+	background-color: #e2d7d7;
+	border-style:solid;
+	border-width:2px;
+	border-bottom-color: #998675s;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.buttom-control > .btn-default{
+	width:100px; 
+	font-size: 16px;
+	float: right;
+	margin-right: 20px;
+}
+
+.buttom-control > .btn-primary{
+	width:100px; 
+	font-size: 16px;
+	float: right;
+	margin-right: 20px;
+}
+/*---------按鈕 螢幕 736----------*/
+@media(max-width: 480px) {
+	.buttom-control > .btn-default{
+		width:80px; 
+		font-size: 12px;
+	}
+	.buttom-control > .btn-primary{
+		width:80px; 
+		font-size: 12px;
+	}
+}/*-------- 按鈕 螢幕 736---------*/
+
+.buttom-right{
+	margin-right: 20px;
+}
+.buttom-control{
+	width: 300px;
+	float: right;
+	margin-top: 30px;
+}
+/*---------按鈕 螢幕 736----------*/
+@media(max-width: 736px) {
+	.buttom-control{
+
+		margin-top: 100px;
+	}
+}
+/*-------- 按鈕 螢幕 736---------*/
+
+/*----------垂直置中對齊---------*/
+.transform {
+      position: relative;
+      top:50%;
+      transform:translateY(-50%);
+}

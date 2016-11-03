@@ -1,0 +1,225 @@
+/*---------------- 彈出視窗--------------*/
+.close{
+	width:10px;
+}
+.modal-dialog{
+	width:1000px;
+	top:100px;
+}
+@media(max-width: 1024px) {
+	.modal-dialog{
+		width:90%;
+	}
+}/*--------- 進度 螢幕 1024px---------*/
+.title{
+	background-color: #4973aa;
+	color:white;
+	border-radius: 0.2em;
+	font-size: 18px;
+	font-weight:bold;
+	text-align:center;
+}
+.text-content{
+	background-color: white;
+	border-radius: 0.2em;
+	color:black;
+	padding-left:10px;
+	padding-right:10px;
+}
+/*----------------------------中間 進度流程-----------------------------*/
+.block{
+	margin-left: auto;
+	margin-right: auto;
+	width: 700px;
+}
+/*---------進度 螢幕 736---------*/
+@media(max-width: 736px) {
+	.block{
+		margin-left: auto;
+		margin-right: auto;
+		width: 100%;
+	}
+}/*--------- 進度 螢幕 736---------*/
+
+
+.block1{
+	background-color: #666666;
+	width: 200px;
+	height: 40px;
+	color:white;
+	font-size: 20px;
+	text-align:center;
+	padding-top: 7px;
+	float: left;
+}
+/*---------進度 螢幕 736---------*/
+@media(max-width: 736px) {
+    .block1{
+	background-color: #666666;
+	height: 40px;
+	width: 100%;
+	color:white;
+	font-size: 18px;
+	text-align:center;
+	padding-top: 8px;
+	float: left;
+    }
+}/*--------- 進度 螢幕 736---------*/
+
+
+.block2{
+	background-color: #ffffff;
+	width: 200px;
+	height: 40px;
+	color:black;
+	text-align:center;
+	padding-top: 7px;
+	font-size: 20px;
+	float: left;
+}
+/*--------- 進度 螢幕 736---------*/
+@media(max-width: 736px) {
+	.block2{
+		background-color: #ffffff;
+	    width: 100%;
+	    height: 40px;
+		color:black;
+		text-align:center;
+		padding-top: 8px;
+		font-size: 18px;
+		float: left;
+	}
+}/*--------- 進度 螢幕 736---------*/
+@media(max-width: 736px) {
+	.arrow{
+		padding-left: 50%;
+    }
+}
+
+i.material-icons {
+    font-size: 40px;
+}
+/*--------- 進度 螢幕 736---------*/
+@media(max-width: 736px) {
+	i.material-icons {
+	    font-size: 30px;
+	    padding-top: 6px;
+	}
+}/*--------- 進度 螢幕 736---------*/
+
+.material-icons{
+	float: left;
+}
+@media(max-width: 736px) {
+	.material-icons{
+		float: left;
+		transform: rotate(90deg);		
+	}
+}/*--------- 進度 螢幕 736---------*/
+
+
+/*----------------------------進度-----------------------------*/
+.form1{
+	line-height: 2em;
+    margin-top: 20px;
+    background-color: #999999;
+    color: white;
+    font-size: 18px;
+    text-align: left;
+    padding-left: 1em;
+}
+.form2{
+	background-color: white;
+	padding-top: 5px;
+	padding-left: 20px;
+	padding-bottom: 5px;
+}
+.form3{
+	background-color: white;
+	padding-top: 9px;
+	text-align:center;
+}
+/*---------收件人資料 螢幕 736----------*/
+@media(max-width: 767px) {
+    .form3{
+	text-align:left;
+	}
+}
+@media(max-width: 736px) {
+    .form3{
+	font-size: 12px;
+	padding-top: 9px;
+	}
+}/*---------收件人資料 螢幕 736----------*/
+
+.receiver{
+	background-color: white;
+}
+.form4{
+	background-color: white;
+
+	padding-top: 9px;
+	text-align:center;
+}
+/*---------收件人資料 螢幕 736----------*/
+@media(max-width: 767px) {
+    .form4{
+	text-align:left;
+	}
+}
+@media(max-width: 736px) { 
+	.form4{
+		font-size: 12px;
+	    padding-top: 9px;
+	}
+}/*---------收件人資料 螢幕 736----------*/
+.formdata{
+	background-color: white;
+	height:40px;
+	padding:5px;
+}
+.formdata1{
+	background-color: white;
+	height:80px;
+	padding:5px;
+}
+.form-control{
+	margin-top: 5px;
+	height:30px;
+}
+
+.buttom-control{
+	width: 300px;
+	float: right;
+	margin-top: 30px;
+
+}
+button{
+	width:100px; 
+	font-size: 16px;
+	float: right;
+	margin-right: 20px;
+}
+/*---------按鈕 螢幕 736----------*/
+@media(max-width: 480px) {
+	button{
+		width:80px; 
+		font-size: 12px;
+		float: right;
+		margin-right: 20px;
+	}
+}/*-------- 按鈕 螢幕 736---------*/
+
+
+textarea{
+	width: 100%;
+    height: 54px;
+    resize:none; 
+}
+
+/*----------垂直置中對齊---------*/
+.transform {
+      position: relative;
+      top:50%;
+      transform:translateY(-50%);
+}

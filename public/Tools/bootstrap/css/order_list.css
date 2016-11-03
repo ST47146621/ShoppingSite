@@ -1,0 +1,109 @@
+/*---content_header----*/
+.white_bg{
+	padding-top: 10px;
+	border-radius: 5px;
+	background-color: white;
+}
+
+.content_header{
+	margin-bottom: 10px;
+}
+.heading{
+	font-size:20px;margin-left:30px;
+}
+.order_state{
+	float:right;
+}
+
+/*----panel title----*/
+.panel > .panel-heading{
+	background-color: #998675;
+}
+.panel-title > p> a,.panel-title > p> a:focus,.panel-title > p> a:hover{
+	color:white;
+}
+.btn-custom {
+
+  background-color: hsl(0, 100%, 72%) !important;
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff9999", endColorstr="#ff7070");
+  background-image: -khtml-gradient(linear, left top, left bottom, from(#ff9999), to(#ff7070));
+  background-image: -moz-linear-gradient(top, #ff9999, #ff7070);
+  background-image: -ms-linear-gradient(top, #ff9999, #ff7070);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ff9999), color-stop(100%, #ff7070));
+  background-image: -webkit-linear-gradient(top, #ff9999, #ff7070);
+  background-image: -o-linear-gradient(top, #ff9999, #ff7070);
+  background-image: linear-gradient(#ff9999, #ff7070);
+  border-color: #ff7070 #ff7070 hsl(0, 100%, 70%);
+  color: white !important;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.13);
+  -webkit-font-smoothing: antialiased;
+}
+
+/*----panel body----*/
+
+
+@media (max-width: 860px) {
+	.panel-body > .row{
+		font-size: 16px;
+	}
+	table{
+		font-size: 14px;
+	}
+	tbody{
+		font-size: 14px;
+	}
+	tfoot{
+		font-size: 14px;
+	}
+}
+
+ .panel-body{
+	background-color: #e9dccd;
+}
+.panel-body > .row{
+	font-size: 14px;
+	background-color: #e9dccd;
+}
+.table>thead>tr>th, .table>tbody>tr>th, .table>tfoot>tr>th, .table>thead>tr>td, .table>tbody>tr>td, .table>tfoot>tr>td {
+	border:0px;
+}
+table{
+	font-size: 12px;
+	border:0px;
+
+}
+tbody{
+	font-size: 12px;
+	
+	
+}
+tfoot{
+	font-size: 12px;
+	border-top: 1px solid #736357 !important;
+}
+.table-striped>tbody>tr:nth-child(odd){
+	background-color: #e9dccd;
+}
+
+/*----pagination----*/
+
+@media (min-width: 860px) {
+	.panel-body > .row{
+		font-size: 16px;
+	}
+	table{
+		font-size: 14px;
+	}
+	tbody{
+		font-size: 14px;
+	}
+	tfoot{
+		font-size: 14px;
+	}
+}
+
+ul.pagination {
+    margin: 20px 40%;
+    width: 20%;
+}

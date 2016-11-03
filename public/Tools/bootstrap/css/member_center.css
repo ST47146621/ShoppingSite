@@ -1,0 +1,90 @@
+/*----------------------------中間 交易紀錄-----------------------------*/
+.transaction{
+	margin-top:20px;
+	background-color: #999999;
+	color:white;
+	font-size: 20px;
+	font-weight:bold;
+	text-align:left;
+	padding-left:5px; 
+}
+.transaction1{
+	background-color: white;
+	padding: 0px;
+}
+.transaction1 .fa{
+	padding-top:15px;
+	padding-left:15px;
+	color:#b28850;
+	vertical-align: middle;
+}
+.transaction1-btn{
+	font-size: 16px;
+	color: #4973aa;
+	text-decoration:underline;
+	margin-top: 20px;
+}
+.transaction1-text{
+	font-size: 12px;
+	color: #777777;
+	margin-left:5px;
+	margin-top: 20px;
+	margin-bottom: 5px;
+	float: left;
+}
+.material-icons{
+	padding-top:10px;
+	padding-left:15px;
+	vertical-align: middle;
+}
+@media(max-width: 480px) {
+	.clear{
+		clear: both;
+	}
+}
+.clear{
+	clear: none;
+}
+
+/*----------------------------連結 螢幕 736-----------------------------*/
+@media(max-width: 736px) {
+	.transaction1-btn{
+	font-size: 14px;
+	color: #4973aa;
+	text-decoration:underline;
+	margin-left:20px;
+    }
+	.transaction1-text{
+		font-size: 8px;
+		color: #777777;
+		margin-left:15px;
+		margin-top: 10px;
+	    margin-bottom: 5px;
+	}
+	.material-icons{
+		padding-top:10px;
+		padding-left:15px;
+		vertical-align: middle;
+	}
+
+}
+/*---------------------------- 連結 螢幕 736-----------------------------*/
+
+.transaction1 i.fa.fa-paste , .material-icons {
+    font-size: 50px;
+}
+
+/*----------------------------icon 螢幕 736-----------------------------*/
+@media(max-width: 736px) {
+	.transaction1 i.fa.fa-paste , .material-icons {
+    font-size: 30px;
+    }
+}
+/*----------------------------icon 螢幕 736-----------------------------*/
+
+/*----------垂直置中對齊---------*/
+.transform {
+      position: relative;
+      top:50%;
+      transform:translateY(-50%);
+}
